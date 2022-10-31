@@ -1,0 +1,185 @@
+.main {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    padding: 10px;
+}
+
+img {
+    max-width: 30px;
+    max-height: 30px;
+    padding-right: 8px;
+}
+
+.marge {
+    background-color: #466593;
+    color: rgb(255, 255, 255, 0.95);
+    padding: 10px;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    display: grid;
+    background-color:rgb(255, 255, 255, 0.50);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.marge {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+img, h2 {
+    display: inline-block;
+}
+
+.tijdlijn {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/*.periode {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-rows: max-content;
+}
+
+.beschrijving {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+}*/
+
+.periode_1 {
+    grid-row-start: 1;
+}
+
+.periode_2 {
+    grid-row-start: 4;
+}
+
+.periode_3 {
+    grid-row-start: 7;
+}
+
+.periode_1, .periode_2, .periode_3 {
+    grid-column: 2;
+}
+
+.beschrijving_1, .beschrijving_2, .beschrijving_3 {
+    grid-column: 3;
+}
+
+.functie_1, .functie_2, .functie_3 {
+    font-weight: bold;
+    grid-column: 3;
+}
+
+.locatie_1, .locatie_2, .locatie_3 {
+    color: #466593;
+    grid-column: 3;
+}
+
+.taken_1, .taken_2, .taken_3 {
+    grid-column: 3;
+}
+
+.functie_1 {
+    grid-row: 1;
+}
+
+.locatie_1 {
+    grid-row: 2;
+}
+
+.beschrijving_1 {
+    grid-row: 3;
+}
+
+.functie_2 {
+    grid-row: 4;
+}
+
+.locatie_2 {
+    grid-row: 5;
+}
+
+.beschrijving_2 {
+    grid-row: 6;  
+}
+
+.functie_3 {
+    grid-row: 7;
+}
+
+.locatie_3 {
+    grid-row: 8;
+}
+
+.beschrijving_3 {
+    grid-row: 9;
+}
+
+.grid {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 5% 25% 70%;
+    
+}
+
+.dot {
+    border-radius: 50%;
+}
+
+.line {
+    width: 1px;
+    border: none;
+    height: 75px;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.header {
+    border: 1px solid grey;
+    color: grey;
+}
+
+.item p {
+    display: inline-block;
+}
+
+.taal {
+    text-align: left;
+    width: 50%;
+}
+
+.star {
+    text-align: right;
+    width: 50%;
+}
+
+h4 {
+    padding-bottom: -10px;
+}
+
+h3 {
+    padding-top: 10px;
+}
